@@ -88,6 +88,7 @@ main {
 /* modal */
 
 .modal {
+  display: none;
   position: fixed;
   right: 0;
   left: 0;
@@ -166,8 +167,27 @@ input {
 
 /* modal after submit */
 
+.loading {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.modal-displayed-name {
+  color: fuchsia;
+}
+
 .modal-text {
   height: 140px;
   line-height: 23px;
   margin-bottom: 0;
+}
+
+.idiot-gif {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.idiot-gif img {
+  box-shadow: 1px 1px 3px #999;
+  border-radius: 5px;
 }
